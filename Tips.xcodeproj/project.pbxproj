@@ -14,6 +14,9 @@
 		461E8AA823EC7AFA00C1F2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461E8AA623EC7AFA00C1F2B7 /* LaunchScreen.storyboard */; };
 		461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AAA23EC7AFA00C1F2B7 /* main.m */; };
 		461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */; };
+		E9F3726924212D8C00F7949B /* LCBTip.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F3726824212D8C00F7949B /* LCBTip.m */; };
+		E9F3726C242133F900F7949B /* LCBTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F3726B242133F900F7949B /* LCBTipController.m */; };
+		E9F3726F24213CDE00F7949B /* LCBTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F3726E24213CDE00F7949B /* LCBTipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		461E8AAA23EC7AFA00C1F2B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		461E8AB723EC97E200C1F2B7 /* LSITipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITipViewController.h; sourceTree = "<group>"; };
 		461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipViewController.m; sourceTree = "<group>"; };
+		E9F3726724212D8C00F7949B /* LCBTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBTip.h; sourceTree = "<group>"; };
+		E9F3726824212D8C00F7949B /* LCBTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCBTip.m; sourceTree = "<group>"; };
+		E9F3726A242133F900F7949B /* LCBTipController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBTipController.h; sourceTree = "<group>"; };
+		E9F3726B242133F900F7949B /* LCBTipController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCBTipController.m; sourceTree = "<group>"; };
+		E9F3726D24213CDE00F7949B /* LCBTipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBTipViewController.h; sourceTree = "<group>"; };
+		E9F3726E24213CDE00F7949B /* LCBTipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCBTipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,12 @@
 		461E8A8C23EC7AF900C1F2B7 = {
 			isa = PBXGroup;
 			children = (
+				E9F3726724212D8C00F7949B /* LCBTip.h */,
+				E9F3726824212D8C00F7949B /* LCBTip.m */,
+				E9F3726A242133F900F7949B /* LCBTipController.h */,
+				E9F3726B242133F900F7949B /* LCBTipController.m */,
+				E9F3726D24213CDE00F7949B /* LCBTipViewController.h */,
+				E9F3726E24213CDE00F7949B /* LCBTipViewController.m */,
 				461E8A9723EC7AF900C1F2B7 /* Tips */,
 				461E8A9623EC7AF900C1F2B7 /* Products */,
 			);
@@ -172,8 +187,11 @@
 			files = (
 				461E8A9A23EC7AF900C1F2B7 /* AppDelegate.m in Sources */,
 				461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */,
+				E9F3726924212D8C00F7949B /* LCBTip.m in Sources */,
 				461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */,
 				461E8A9D23EC7AF900C1F2B7 /* SceneDelegate.m in Sources */,
+				E9F3726C242133F900F7949B /* LCBTipController.m in Sources */,
+				E9F3726F24213CDE00F7949B /* LCBTipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
